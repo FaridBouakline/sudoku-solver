@@ -122,7 +122,7 @@ class SudokuGUI:
 
     def create_buttons(self):
         solve_button = tk.Button(self.master, text="Solve", command=self.solve_sudoku)
-        solve_button.grid(row=9, column=3, columnspan=3, pady=10)
+        solve_button.grid(row=9, column=6, columnspan=3, pady=10)
         
         clear_button = tk.Button(self.master, text="Clear", command=self.clear_grid)
         clear_button.grid(row=9, column=0, columnspan=3, pady=10)
